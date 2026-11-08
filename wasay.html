@@ -1,0 +1,1956 @@
+<!doctype html>
+<html>
+<head>
+
+<title>bilal tariq </title>
+<style>
+body{
+margin:0;
+padding:0;
+}
+.header img {
+width:110px;
+background:black;
+}
+.header {
+    display: flex;
+    width: 100%;
+    background:#1d2029;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+ .nav{
+  display:flex;
+
+
+
+}
+.nav li{
+margin:20px;
+padding:10px;
+list-style:none;
+}
+.nav li a{
+color:white;
+text-decoration:none;
+font-size:25px;
+
+}
+
+color:black;
+}
+
+. a button{
+margin:outo;
+}
+
+.button{
+margin-left:20px;
+background:#3e83b7;
+padding:12px 20px;
+border:2px solid white;
+border-radius:15px;
+color:white;
+text-decoration:none;
+font-size:30px;
+}
+
+
+
+.banner{
+    display:flex;
+	text-align: center;
+    width:100%;
+    height:500px;
+    background-image:url("file:///C:/Users/dell/Desktop/bilal/images/bg_files/title.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.text{
+    margin: 98px;
+    text-align: center;
+}
+
+.text h1{
+font-size:48px;
+
+}
+
+.text p{
+font-size:13px;
+
+}
+
+.maps{
+background:black;
+display:flex;
+	justify-content: space-between;
+    box-sizing: border-box;
+	gap: 30px;
+}
+.san h3{
+    font-size: 24px;
+color:white;
+text-align: center;
+}
+
+.kan{
+    font-size: 24px;
+color:white;
+text-align: center;
+}
+.saad{
+ display: flex;
+    width: 100%;
+    background:#1d2029;
+    align-items: center;
+    justify-content: space-around;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Main section */
+        .model-section {
+            width: 100%;
+            padding: 25px 4%;
+        }
+
+        /* Heading */
+        .section-title {
+            color: #d90000;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        /* Cars in one row */
+        .car-container {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 35px;
+            align-items: stretch;
+        }
+
+        /* Individual car card */
+        .car-card {
+            background-color: #f8f8f8;
+            border-radius: 12px;
+            overflow: hidden;
+            min-width: 0;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease,
+                        box-shadow 0.3s ease;
+        }
+
+        .car-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+        }
+
+        /* Car image area */
+        .car-image {
+            width: 100%;
+            height: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .car-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        /* Car details */
+        .car-details {
+            padding: 15px 14px 25px;
+        }
+
+        .car-name {
+            color: #777777;
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 17px;
+        }
+
+        .car-price {
+            color: #d90000;
+            font-size: 23px;
+            font-weight: 800;
+            margin-bottom: 28px;
+        }
+
+        /* Bottom links */
+        .car-links {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+            font-size: 20px;
+        }
+
+        .car-links a {
+            color: #111111;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .car-links a:hover {
+            color: #d90000;
+        }
+
+        .car-links span {
+            color: #888888;
+        }
+
+        /* Tablet screen */
+        @media (max-width: 900px) {
+            .car-container {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 22px;
+            }
+
+            .car-image {
+                height: 280px;
+            }
+
+            .car-name {
+                font-size: 24px;
+            }
+
+            .car-price {
+                font-size: 20px;
+            }
+        }
+
+        /* Mobile screen */
+        @media (max-width: 600px) {
+            .model-section {
+                padding: 20px 15px;
+            }
+
+            .section-title {
+                font-size: 25px;
+                margin-bottom: 22px;
+            }
+
+            .car-container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .car-image {
+                height: 290px;
+            }
+
+            .car-name {
+                font-size: 25px;
+            }
+
+            .car-price {
+                font-size: 21px;
+            }
+        }
+   
+   
+   
+   
+   
+/* ===== DRIVEX PREMIUM THEME ===== */
+.dx-showcase,
+.dx-footer {
+  --dx-red: #ff1728;
+  --dx-gold: #ffc928;
+  --dx-green: #16e58b;
+  --dx-muted: #aab1bd;
+  --dx-border: #28313d;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dx-showcase *,
+.dx-footer * {
+  box-sizing: border-box;
+}
+
+.dx-showcase {
+  background: #05090e;
+  overflow: hidden;
+}
+
+/* ===== HERO AND LIVE CAR PANEL ===== */
+.dx-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 310px;
+  border-bottom: 1px solid #252d38;
+}
+
+.dx-hero {
+  min-width: 0;
+  min-height: 410px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(3, 8, 14, .98) 0%,
+    rgba(3, 8, 14, .90) 30%,
+    rgba(3, 8, 14, .20) 66%,
+    rgba(3, 8, 14, .05) 100%),
+    url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=80")
+    center / cover no-repeat;
+}
+
+.dx-bg-glow {
+  position: absolute;
+  z-index: -1;
+  right: 12%;
+  top: 20%;
+  width: 330px;
+  height: 230px;
+  background: rgba(255, 23, 40, .15);
+  filter: blur(80px);
+  border-radius: 50%;
+  animation: dxGlow 4s ease-in-out infinite alternate;
+}
+
+.dx-copy {
+  position: relative;
+  z-index: 3;
+  width: 390px;
+  max-width: 53%;
+  padding: 28px 0 42px 7%;
+}
+
+.dx-eyebrow,
+.dx-panel-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.dx-red-dot,
+.dx-green-dot {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--dx-red);
+  box-shadow: 0 0 12px rgba(255, 23, 40, .8);
+  animation: dxBlink 1.5s infinite;
+}
+
+.dx-green-dot {
+  background: var(--dx-green);
+  box-shadow: 0 0 10px rgba(22, 229, 139, .8);
+}
+
+.dx-trending {
+  margin: 33px 0 12px;
+  color: var(--dx-red);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.dx-copy h1 {
+  margin: 0 0 15px;
+  color: #fff;
+  font-size: clamp(27px, 3vw, 40px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -.7px;
+}
+
+.dx-description {
+  color: #c1c6cf;
+  font-size: 13px;
+  line-height: 1.9;
+  margin: 0;
+}
+
+.dx-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 19px 0 23px;
+}
+
+.dx-specs div {
+  display: grid;
+  grid-template-columns: 23px auto;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.dx-specs div > span {
+  grid-row: span 2;
+  font-size: 19px;
+  color: #fff;
+}
+
+.dx-specs strong {
+  font-size: 11px;
+  color: #f2f3f5;
+}
+
+.dx-specs small {
+  font-size: 10px;
+  color: #9ea5b1;
+  margin-top: 4px;
+}
+
+.dx-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.dx-book-btn,
+.dx-details-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 20px;
+  min-height: 45px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  transition: .25s ease;
+}
+
+.dx-book-btn {
+  color: #fff;
+  background: var(--dx-red);
+  box-shadow: 0 0 22px rgba(255, 23, 40, .15);
+}
+
+.dx-book-btn:hover {
+  background: #d90016;
+  box-shadow: 0 0 25px rgba(255, 23, 40, .4);
+  transform: translateY(-2px);
+}
+
+.dx-details-btn {
+  color: #fff;
+  border: 1px solid #8b919a;
+  background: rgba(5, 9, 14, .45);
+}
+
+.dx-details-btn:hover {
+  border-color: var(--dx-red);
+  color: var(--dx-red);
+}
+
+.dx-viewers {
+  position: absolute;
+  z-index: 4;
+  top: 25px;
+  right: 6%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid #303a47;
+  border-radius: 9px;
+  background: rgba(4, 9, 15, .8);
+  backdrop-filter: blur(12px);
+}
+
+.dx-viewer-icon {
+  color: var(--dx-red);
+  font-size: 24px;
+}
+
+.dx-viewers strong,
+.dx-viewers small {
+  display: block;
+}
+
+.dx-viewers strong {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.dx-viewers small {
+  color: #c4c9d2;
+  font-size: 11px;
+}
+
+.dx-viewers small i {
+  width: 7px;
+  height: 7px;
+  margin-left: 3px;
+  display: inline-block;
+  background: var(--dx-green);
+  border-radius: 50%;
+}
+
+/* Main vehicle image */
+.dx-car-visual {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 22px;
+  width: 64%;
+  height: 77%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.dx-car-visual img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 24px rgba(0, 0, 0, .75));
+  animation: dxCarCruise 4s ease-in-out infinite;
+  transition: opacity .25s;
+}
+
+.dx-car-visual.dx-car-exit img {
+  animation: dxCarExit .28s ease-in forwards;
+}
+
+.dx-light-streak {
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: -30%;
+  width: 140%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #ff233a, #fff, transparent);
+  box-shadow: 0 0 18px #ff233a;
+  opacity: .65;
+  animation: dxLightMove 2.2s linear infinite;
+}
+
+.dx-hero-arrow {
+  position: absolute;
+  z-index: 5;
+  top: 47%;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 7px;
+  border: 1px solid #4a515d;
+  background: rgba(3, 7, 12, .75);
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.dx-hero-arrow:hover {
+  background: var(--dx-red);
+  border-color: var(--dx-red);
+}
+
+.dx-arrow-left {
+  left: 16px;
+}
+
+.dx-arrow-right {
+  right: 15px;
+}
+
+/* Live side panel */
+.dx-live-panel {
+  min-width: 0;
+  padding: 26px 20px 15px;
+  background: #080d13;
+  border-left: 1px solid #26303b;
+}
+
+.dx-panel-heading {
+  margin-bottom: 22px;
+}
+
+.dx-panel-heading h2 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.dx-live-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding: 9px;
+  margin-bottom: 12px;
+  text-align: left;
+  border: 1px solid #424955;
+  border-radius: 9px;
+  color: #fff;
+  background: #0d1219;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.dx-live-card:hover,
+.dx-live-card.active {
+  border-color: var(--dx-red);
+  background: linear-gradient(120deg, #201015, #0c1118);
+  box-shadow: inset 0 0 15px rgba(255, 23, 40, .06);
+}
+
+.dx-live-card img {
+  display: block;
+  width: 43%;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 5px;
+  background: #151a22;
+  transition: transform .3s;
+}
+
+.dx-live-card:hover img {
+  transform: scale(1.035);
+}
+
+.dx-live-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 12px;
+}
+
+.dx-live-info > strong {
+  white-space: nowrap;
+  font-size: 11px;
+}
+
+.dx-live-info > strong i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 3px;
+  border-radius: 50%;
+  background: var(--dx-green);
+}
+
+.dx-price {
+  color: var(--dx-gold);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.dx-price small {
+  color: #b4bbc5;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.dx-signal {
+  margin-left: auto;
+  color: var(--dx-red);
+  font-size: 22px;
+  animation: dxBlink 1s infinite;
+}
+
+.dx-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 0 7px;
+}
+
+.dx-pagination span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #555d69;
+}
+
+.dx-pagination span.selected {
+  width: 16px;
+  background: var(--dx-red);
+}
+
+.dx-panel-note {
+  color: #858e9b;
+  text-align: center;
+  font-size: 10px;
+}
+
+.dx-panel-note .dx-red-dot {
+  width: 6px;
+  height: 6px;
+}
+
+/* ===== BENEFITS AND OFFER ===== */
+.dx-benefits {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(330px, 2.4fr);
+  background: #080d13;
+  border-bottom: 1px solid #2a323d;
+}
+
+.dx-benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 28px 15px;
+  border-right: 1px solid #222a34;
+}
+
+.dx-benefit-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 23px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, .04);
+}
+
+.dx-benefit-icon.red { color: #ff3445; background: #2b1016; }
+.dx-benefit-icon.gold { color: #ffc928; background: #2a220d; }
+.dx-benefit-icon.blue { color: #54a5ff; background: #0d2038; }
+.dx-benefit-icon.green { color: #16e58b; background: #09271d; }
+
+.dx-benefit h3 {
+  margin: 3px 0 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.dx-benefit p {
+  margin: 0;
+  color: #9da6b3;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.dx-offer {
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px 24px;
+  background:
+    linear-gradient(90deg, rgba(7, 10, 17, .96), rgba(7, 10, 17, .70) 55%, rgba(7, 10, 17, .15)),
+    url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80") center / cover;
+}
+
+.dx-offer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.dx-offer-label {
+  color: var(--dx-gold);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.dx-offer h2 {
+  font-size: 20px;
+  line-height: 1.35;
+  margin: 10px 0;
+}
+
+.dx-countdown {
+  display: flex;
+  gap: 7px;
+}
+
+.dx-countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 45px;
+  padding: 6px;
+  border: 1px solid #3d434e;
+  border-radius: 5px;
+  background: rgba(5, 9, 15, .75);
+}
+
+.dx-countdown strong {
+  font-size: 19px;
+}
+
+.dx-countdown small {
+  color: #aeb5c0;
+  font-size: 9px;
+}
+
+.dx-offer > img {
+  position: absolute;
+  right: -15%;
+  bottom: -10px;
+  width: 67%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 10px 12px #000);
+  animation: dxCarCruise 4s ease-in-out infinite;
+}
+
+.dx-claim-btn {
+  position: absolute;
+  z-index: 3;
+  right: 16px;
+  bottom: 12px;
+  display: inline-block;
+  padding: 12px 14px;
+  background: var(--dx-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: .25s;
+}
+
+.dx-claim-btn:hover {
+  background: #d90016;
+  transform: translateY(-2px);
+}
+
+/* ===== LIVE BOOKINGS ===== */
+.dx-bookings {
+  padding: 18px 5% 20px;
+  overflow: hidden;
+  border-bottom: 1px solid #252d37;
+  background: #070b11;
+}
+
+.dx-booking-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 13px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.dx-booking-heading small {
+  color: #7e8795;
+  font-size: 9px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.dx-booking-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: dxTicker 35s linear infinite;
+}
+
+.dx-booking-track:hover {
+  animation-play-state: paused;
+}
+
+.dx-booking-item {
+  width: 255px;
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px;
+  border: 1px solid #39414d;
+  border-radius: 9px;
+  background: linear-gradient(120deg, #151a22, #080d13);
+}
+
+.dx-avatar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #fff;
+  background: linear-gradient(135deg, #72513b, #d4a279);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.dx-avatar.pink { background: linear-gradient(135deg, #6c344a, #eaa8be); }
+.dx-avatar.gold { background: linear-gradient(135deg, #756027, #d9b95d); }
+
+.dx-booking-item > div:nth-child(2) {
+  min-width: 0;
+}
+
+.dx-booking-item strong,
+.dx-booking-item p,
+.dx-booking-item small {
+  display: block;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.dx-booking-item strong {
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.dx-booking-item p,
+.dx-booking-item small {
+  color: #c4cad3;
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.dx-booking-item > img {
+  width: 62px;
+  height: 42px;
+  object-fit: contain;
+  margin-left: auto;
+}
+
+@keyframes dxTicker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-35%); }
+}
+
+/* ===== FOOTER ===== */
+.dx-footer {
+  position: relative;
+  padding: 45px 5% 0;
+  background:
+    radial-gradient(ellipse at 10% 0%, rgba(35, 47, 64, .23), transparent 42%),
+    #05090e;
+  border-top: 1px solid #222a34;
+}
+
+.dx-footer-main {
+  display: grid;
+  grid-template-columns: 1.3fr repeat(3, .9fr) .85fr 1.4fr;
+  gap: 25px;
+  padding-bottom: 35px;
+}
+
+.dx-footer-brand,
+.dx-footer-column,
+.dx-footer-news {
+  min-width: 0;
+}
+
+.dx-footer-brand {
+  padding-right: 12px;
+}
+
+.dx-logo {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-size: 29px;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.dx-logo > span:last-child {
+  color: var(--dx-red);
+}
+
+.dx-logo-car {
+  position: absolute;
+  top: -16px;
+  left: 12px;
+  color: var(--dx-red);
+  font-size: 38px;
+  transform: scaleX(1.5);
+}
+
+.dx-footer-brand > p,
+.dx-footer-news > p {
+  color: #a2aab6;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+.dx-footer-brand > p {
+  max-width: 240px;
+  margin: 20px 0;
+}
+
+.dx-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.dx-socials a {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #303945;
+  border-radius: 6px;
+  background: #111720;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.dx-socials a:hover {
+  color: #fff;
+  background: var(--dx-red);
+  border-color: var(--dx-red);
+  transform: translateY(-3px);
+}
+
+.dx-footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  padding-left: 5px;
+  border-left: 1px solid #171e28;
+}
+
+.dx-footer-column h3,
+.dx-footer-news h3 {
+  margin: 3px 0 6px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+
+.dx-footer-column h3::after,
+.dx-footer-news h3::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin-top: 10px;
+  background: var(--dx-red);
+}
+
+.dx-footer-column a {
+  color: #b0b7c1;
+  font-size: 11px;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.dx-footer-column a:hover {
+  color: var(--dx-red);
+  transform: translateX(3px);
+}
+
+.dx-footer-news > p {
+  margin: 12px 0 16px;
+}
+
+.dx-footer-news form {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #343d49;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #080d13;
+}
+
+.dx-footer-news input {
+  width: 0;
+  flex: 1;
+  min-width: 0;
+  padding: 13px 10px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  background: transparent;
+  font-size: 11px;
+}
+
+.dx-footer-news input:focus {
+  box-shadow: inset 0 0 0 1px var(--dx-red);
+}
+
+.dx-footer-news button {
+  padding: 0 12px;
+  border: 0;
+  background: var(--dx-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.dx-footer-news button:hover {
+  background: #d90016;
+}
+
+.dx-footer-news .dx-news-message {
+  color: var(--dx-gold);
+  font-size: 10px;
+  overflow-wrap: anywhere;
+}
+
+.dx-promises {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 12px;
+  color: #b8c0ca;
+  font-size: 9px;
+}
+
+.dx-promises span::first-letter {
+  color: var(--dx-gold);
+}
+
+/* Contact / copyright bar */
+.dx-footer-contact-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  gap: 18px;
+  padding: 24px 0;
+  border-top: 1px solid #252d37;
+}
+
+.dx-footer-contact-row > div:not(.dx-copyright) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding-right: 12px;
+  border-right: 1px solid #202834;
+}
+
+.dx-footer-contact-row > div > span {
+  color: var(--dx-red);
+  font-size: 24px;
+}
+
+.dx-footer-contact-row p {
+  min-width: 0;
+  margin: 0;
+}
+
+.dx-footer-contact-row strong,
+.dx-footer-contact-row small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.dx-footer-contact-row strong {
+  color: #f2f3f5;
+  font-size: 11px;
+  margin-bottom: 7px;
+}
+
+.dx-footer-contact-row small,
+.dx-copyright p {
+  color: #929ba8;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.dx-copyright p {
+  margin: 0 0 5px;
+}
+
+.dx-back-top {
+  position: absolute;
+  right: 16px;
+  bottom: 23px;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--dx-red);
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 23, 40, .22);
+  transition: .25s;
+}
+
+.dx-back-top:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(255, 23, 40, .5);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes dxCarCruise {
+  0%, 100% { transform: translateX(0) translateY(0) scale(1); }
+  50% { transform: translateX(-10px) translateY(-5px) scale(1.025); }
+}
+
+@keyframes dxCarExit {
+  to { transform: translateX(80px) scale(.96); opacity: 0; }
+}
+
+@keyframes dxGlow {
+  from { opacity: .4; transform: scale(.9); }
+  to { opacity: 1; transform: scale(1.15); }
+}
+
+@keyframes dxBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+
+@keyframes dxLightMove {
+  from { transform: translateX(-40%); }
+  to { transform: translateX(45%); }
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1150px) {
+  .dx-main {
+    grid-template-columns: minmax(0, 1fr) 270px;
+  }
+
+  .dx-copy {
+    max-width: 58%;
+  }
+
+  .dx-car-visual {
+    width: 59%;
+  }
+
+  .dx-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dx-offer {
+    grid-column: 1 / -1;
+  }
+
+  .dx-footer-main {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px 22px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 700px) {
+  .dx-main {
+    grid-template-columns: 1fr;
+  }
+
+  .dx-hero {
+    min-height: 540px;
+    background-position: center;
+  }
+
+  .dx-copy {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 22px;
+  }
+
+  .dx-trending {
+    margin-top: 25px;
+  }
+
+  .dx-copy h1 {
+    font-size: 32px;
+  }
+
+  .dx-description {
+    max-width: 330px;
+  }
+
+  .dx-specs {
+    max-width: 340px;
+    gap: 12px;
+  }
+
+  .dx-viewers {
+    top: auto;
+    right: 15px;
+    bottom: 112px;
+    padding: 8px 10px;
+  }
+
+  .dx-car-visual {
+    width: 110%;
+    height: 40%;
+    right: -5%;
+    bottom: 10px;
+  }
+
+  .dx-arrow-left {
+    left: 10px;
+  }
+
+  .dx-arrow-right {
+    right: 10px;
+  }
+
+  .dx-hero-arrow {
+    top: 65%;
+    width: 32px;
+    height: 32px;
+  }
+
+  .dx-live-panel {
+    border-left: none;
+    border-top: 1px solid #26303b;
+    padding: 22px 16px;
+  }
+
+  .dx-live-card img {
+    width: 100px;
+    height: 65px;
+  }
+
+  .dx-live-info > strong {
+    font-size: 12px;
+  }
+
+  .dx-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dx-benefit {
+    padding: 20px 10px;
+    gap: 9px;
+  }
+
+  .dx-benefit-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .dx-benefit h3 {
+    font-size: 11px;
+  }
+
+  .dx-benefit p {
+    font-size: 10px;
+  }
+
+  .dx-offer {
+    min-height: 235px;
+    grid-column: 1 / -1;
+    padding: 20px 14px;
+    align-items: flex-start;
+  }
+
+  .dx-offer h2 {
+    font-size: 19px;
+  }
+
+  .dx-offer > img {
+    width: 70%;
+    height: 60%;
+    right: -8%;
+    bottom: 0;
+  }
+
+  .dx-claim-btn {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .dx-bookings {
+    padding: 17px 14px;
+  }
+
+  .dx-booking-item {
+    width: 235px;
+  }
+
+  .dx-footer {
+    padding: 35px 6% 0;
+  }
+
+  .dx-footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 18px;
+  }
+
+  .dx-footer-brand,
+  .dx-footer-news {
+    grid-column: 1 / -1;
+  }
+
+  .dx-footer-column {
+    padding-left: 10px;
+  }
+
+  .dx-footer-contact-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 10px;
+    padding-bottom: 70px;
+  }
+
+  .dx-footer-contact-row > div:not(.dx-copyright) {
+    border-right: none;
+  }
+
+  .dx-footer-contact-row strong {
+    font-size: 10px;
+  }
+
+  .dx-back-top {
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .dx-copy h1 {
+    font-size: 27px;
+  }
+
+  .dx-actions {
+    gap: 8px;
+  }
+
+  .dx-book-btn,
+  .dx-details-btn {
+    padding: 12px;
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .dx-footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dx-countdown div {
+    min-width: 39px;
+  }
+
+  .dx-countdown strong {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dx-showcase *,
+  .dx-footer * {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+ </style>
+
+ </head>
+<body>
+<div class="header">
+<img src="file:///C:/Users/dell/Downloads/Car%20HADER%20Racing%20Shield%20Logo.png">
+<ul class="nav">
+<li><a href="#">HOME</a></li>
+<li><a href="#">title</a></li>
+<li><a href="#">head</a></li>
+<li><a href="#">code</a></li>
+
+</ul>
+<a class="button"href="#">website</a>
+
+</div>
+
+<div class="banner"> 
+<div class="text">
+<h6>HOME /<SPAN style="COLOR:red;"> CONTACT US</span></h6>
+<H1> CONTACT <SPAN style="COLOR:red;">US</span></H1>
+
+<p>we're here to help!+iether you have a question want to<br>
+sell your car,or need support-feel free toreach out.</p>
+
+
+</div>
+
+  </div>
+
+
+    <div class="maps">
+
+<div class="san">
+<h3>Sania Corner, Gulzar-e-Hijri</h3>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d115774.96550039669!2d67.1023104!3d24.933171199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2s!4v1790717289507!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+ </div>
+<div class="kan">
+<h3>Gulshan-e-Kaneez Fatima Block 1</h3>
+
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28939.243447459572!2d67.09178978852076!3d24.952317093845856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338a0aeac75b3%3A0x26fbe8ea6f0d2a14!2sGulshan-e-Kaneez%20Fatima%20Block%201%20Malik%20CHS%20Gulzar%20E%20Hijri%20Scheme%2033%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1790717557949!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+ </div>
+
+</div>
+
+<section class="model-section">
+
+        <h1 class="section-title">MODEL LINE-UP</h1>
+
+        <div class="car-container">
+
+            <!-- Car 1 -->
+            <div class="car-card">
+
+                <div class="car-image">
+                    <img
+                        src="file:///C:/Users/dell/Desktop/bg_files/ChatGPT_Image_Jul_13__2026__10_54_54_AM.png"
+                        alt="Honda Civic"
+                    >
+                </div>
+
+                <div class="car-details">
+                    <h2 class="car-name">Honda Civic</h2>
+
+                    <p class="car-price">
+                        From PKR 8,834,000
+                    </p>
+
+                    <div class="car-links">
+                        <a href="#booking">Book Now</a>
+                        <span>|</span>
+                        <a href="#civic">Discover</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Car 2 -->
+            <div class="car-card">
+
+                <div class="car-image">
+                    <img
+                        src="file:///C:/Users/dell/Desktop/bg_files/Cover.jpg"
+                        alt="Honda HR-V"
+                    >
+                </div>
+
+                <div class="car-details">
+                    <h2 class="car-name">Honda HR-V</h2>
+
+                    <p class="car-price">
+                        From PKR 7,299,000
+                    </p>
+
+                    <div class="car-links">
+                        <a href="#booking">Book Now</a>
+                        <span>|</span>
+                        <a href="#hrv">Discover</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Car 3 -->
+            <div class="car-card">
+
+                <div class="car-image">
+                    <img
+                        src="file:///C:/Users/dell/Desktop/bg_files/images.jpg"
+                        alt="Honda City"
+                    >
+                </div>
+
+                <div class="car-details">
+                    <h2 class="car-name">Honda City</h2>
+
+                    <p class="car-price">
+                        From PKR 4,737,000
+                    </p>
+
+                    <div class="car-links">
+                        <a href="#booking">Book Now</a>
+                        <span>|</span>
+                        <a href="#city">Discover</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+		
+		
+		
+		
+		
+		
+		
+<!-- ===== DRIVE X LIVE CAR SHOWCASE ===== -->
+<section class="dx-showcase" id="dx-cars">
+
+  <div class="dx-main">
+
+    <div class="dx-hero">
+      <div class="dx-bg-glow"></div>
+
+      <div class="dx-copy">
+        <div class="dx-eyebrow">
+          <span class="dx-red-dot"></span> LIVE SHOWCASE
+        </div>
+
+        <p class="dx-trending">TRENDING NOW</p>
+        <h1 id="dx-title">Toyota Corolla<br>Move Ahead In Style</h1>
+        <p class="dx-description" id="dx-description">
+          Experience unmatched comfort, advanced features,
+          and a smooth drive every time.
+        </p>
+
+        <div class="dx-specs">
+          <div><span>⚙</span><strong>Automatic</strong><small>Transmission</small></div>
+          <div><span>♙</span><strong>5</strong><small>Seating</small></div>
+          <div><span>⛽</span><strong>Petrol</strong><small>Fuel Type</small></div>
+          <div><span>◉</span><strong>18 km/l</strong><small>Est. mileage</small></div>
+        </div>
+
+        <div class="dx-actions">
+          <a href="#dx-contact" class="dx-book-btn">Book Now <span>→</span></a>
+          <a href="#dx-live-cars" class="dx-details-btn">View Details <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="dx-viewers">
+        <span class="dx-viewer-icon">♙</span>
+        <div><strong id="dx-viewer-count">856</strong><small><i></i> People Watching</small></div>
+      </div>
+
+      <div class="dx-car-visual" id="dx-car-visual">
+        <div class="dx-light-streak"></div>
+        <img id="dx-main-image"
+          src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1300&q=90"
+          alt="Toyota Corolla style sedan">
+      </div>
+
+      <button class="dx-hero-arrow dx-arrow-left" id="dx-prev" aria-label="Previous car">‹</button>
+      <button class="dx-hero-arrow dx-arrow-right" id="dx-next" aria-label="Next car">›</button>
+    </div>
+
+    <!-- LIVE CARS SIDEBAR -->
+    <aside class="dx-live-panel" id="dx-live-cars">
+      <div class="dx-panel-heading">
+        <span class="dx-red-dot"></span>
+        <h2>LIVE CARS</h2>
+      </div>
+
+      <button class="dx-live-card active" data-car="0">
+        <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=350&q=80" alt="Toyota sedan">
+        <span class="dx-live-info">
+          <strong>Toyota Corolla <i></i></strong>
+          <span class="dx-price">$49 <small>/ day</small></span>
+        </span>
+        <span class="dx-signal">⌁</span>
+      </button>
+
+      <button class="dx-live-card" data-car="1">
+        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=350&q=80" alt="Honda style sedan">
+        <span class="dx-live-info">
+          <strong>Honda Civic <i></i></strong>
+          <span class="dx-price">$55 <small>/ day</small></span>
+        </span>
+        <span class="dx-signal">⌁</span>
+      </button>
+
+      <button class="dx-live-card" data-car="2">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=350&q=80" alt="BMW luxury sedan">
+        <span class="dx-live-info">
+          <strong>BMW 320i <i></i></strong>
+          <span class="dx-price">$75 <small>/ day</small></span>
+        </span>
+        <span class="dx-signal">⌁</span>
+      </button>
+
+      <div class="dx-pagination">
+        <span class="selected"></span><span></span><span></span><span></span><span></span>
+      </div>
+      <p class="dx-panel-note"><span class="dx-red-dot"></span> Explore available rides</p>
+    </aside>
+  </div>
+
+  <!-- BENEFITS -->
+  <div class="dx-benefits">
+    <div class="dx-benefit">
+      <span class="dx-benefit-icon red">♢</span>
+      <div><h3>100% Secure</h3><p>Your safety is<br>our first priority.</p></div>
+    </div>
+    <div class="dx-benefit">
+      <span class="dx-benefit-icon gold">♙</span>
+      <div><h3>Best Price Guarantee</h3><p>Get the best value<br>for your money.</p></div>
+    </div>
+    <div class="dx-benefit">
+      <span class="dx-benefit-icon blue">◷</span>
+      <div><h3>24/7 Support</h3><p>We're here for you<br>anytime, anywhere.</p></div>
+    </div>
+    <div class="dx-benefit">
+      <span class="dx-benefit-icon green">🚘</span>
+      <div><h3>Premium Cars</h3><p>Well-maintained<br>and high performance.</p></div>
+    </div>
+
+    <div class="dx-offer">
+      <div class="dx-offer-content">
+        <span class="dx-offer-label">LIMITED TIME OFFER</span>
+        <h2>Get 20% Off<br>On Your First Booking</h2>
+        <div class="dx-countdown">
+          <div><strong id="dx-days">02</strong><small>Days</small></div>
+          <div><strong id="dx-hours">15</strong><small>Hours</small></div>
+          <div><strong id="dx-minutes">27</strong><small>Mins</small></div>
+          <div><strong id="dx-seconds">33</strong><small>Secs</small></div>
+        </div>
+      </div>
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=85" alt="Luxury sports car">
+      <a href="#dx-contact" class="dx-claim-btn">Claim Offer →</a>
+    </div>
+  </div>
+
+  <!-- LIVE BOOKINGS DEMO -->
+  <div class="dx-bookings">
+    <div class="dx-booking-heading"><span class="dx-green-dot"></span> LIVE BOOKINGS <small>RECENT ACTIVITY</small></div>
+    <div class="dx-booking-track">
+      <div class="dx-booking-item">
+        <div class="dx-avatar">AR</div><div><strong>Ahmed Raza</strong><p>Booked Toyota Corolla</p><small>2 mins ago</small></div>
+        <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=180&q=70" alt="Car">
+      </div>
+      <div class="dx-booking-item">
+        <div class="dx-avatar pink">SK</div><div><strong>Sara Khan</strong><p>Booked Honda Civic</p><small>5 mins ago</small></div>
+        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=180&q=70" alt="Car">
+      </div>
+      <div class="dx-booking-item">
+        <div class="dx-avatar gold">UA</div><div><strong>Usman Ali</strong><p>Booked BMW 320i</p><small>8 mins ago</small></div>
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=180&q=70" alt="Car">
+      </div>
+      <div class="dx-booking-item">
+        <div class="dx-avatar pink">FN</div><div><strong>Fatima Noor</strong><p>Booked Toyota Corolla</p><small>10 mins ago</small></div>
+        <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=180&q=70" alt="Car">
+      </div>
+      <div class="dx-booking-item">
+        <div class="dx-avatar">BS</div><div><strong>Bilal Sheikh</strong><p>Booked Honda Civic</p><small>12 mins ago</small></div>
+        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=180&q=70" alt="Car">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===== PREMIUM FOOTER ===== -->
+<footer class="dx-footer" id="dx-contact">
+
+  <div class="dx-footer-main">
+    <div class="dx-footer-brand">
+      <a href="#" class="dx-logo">
+        <span class="dx-logo-car">⌒</span> Drive<span>X</span>
+      </a>
+      <p>Premium car rental service for your every journey. We make your travel comfortable, safe and memorable.</p>
+      <div class="dx-socials">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Twitter">𝕏</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+
+    <div class="dx-footer-column">
+      <h3>COMPANY</h3>
+      <a href="about.html">About Us</a>
+      <a href="#dx-cars">Our Cars</a>
+      <a href="#dx-cars">How It Works</a>
+      <a href="#dx-offer">Pricing</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="dx-footer-column">
+      <h3>OUR SERVICES</h3>
+      <a href="#dx-live-cars">Car Rental</a>
+      <a href="#dx-live-cars">Luxury Cars</a>
+      <a href="#dx-live-cars">Sports Cars</a>
+      <a href="#dx-live-cars">SUV Rentals</a>
+      <a href="#dx-contact">Airport Transfer</a>
+    </div>
+
+    <div class="dx-footer-column">
+      <h3>QUICK LINKS</h3>
+      <a href="#">Home</a>
+      <a href="#dx-cars">Browse Cars</a>
+      <a href="#dx-offer">Special Offers</a>
+      <a href="terms.html">Terms & Conditions</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="contact.html">FAQs / Contact</a>
+    </div>
+
+    <div class="dx-footer-column dx-locations">
+      <h3>TOP LOCATIONS</h3>
+      <a href="#dx-contact">⌖ Karachi</a>
+      <a href="#dx-contact">⌖ Lahore</a>
+      <a href="#dx-contact">⌖ Islamabad</a>
+      <a href="#dx-contact">⌖ Dubai</a>
+      <a href="#dx-contact">⌖ London</a>
+      <a href="#dx-contact">⌖ New York</a>
+    </div>
+
+    <div class="dx-footer-news">
+      <h3>STAY UPDATED</h3>
+      <p>Subscribe to get updates on new cars, exclusive offers and more.</p>
+      <form id="dx-news-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="dx-news-message" id="dx-news-message" aria-live="polite"></p>
+      <div class="dx-promises"><span>✓ No Spam</span><span>✓ Unsubscribe Anytime</span></div>
+    </div>
+  </div>
+</section>
+  <div class="dx-footer-contact-row">
+    <div><span>☎</span><p><strong>+92 300 1234567</strong><small>Mon - Sun (24/7)</small></p></div>
+    <div><span>✉</span><p><strong>support@drivex.com</strong><small>We reply within 1 hour</small></p></div>
+    <div><span>⌖</span><p><strong>Main Boulevard</strong><small>Karachi, Pakistan</small></p></div>
+    <div class="dx-copyright"><p>© 2026 DriveX. All Rights Reserved.</p><small>Designed for the love of driving.</small></div>
+  </div>
+
+  <button class="dx-back-top" id="dx-back-top" aria-label="Back to top">↑</button>
+</footer>
+
+<script>
+(() => {
+  const cars = [
+    {
+      name: "Toyota Corolla",
+      subtitle: "Move Ahead In Style",
+      description: "Experience unmatched comfort, advanced features, and a smooth drive every time.",
+      image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1300&q=90",
+      price: "$49"
+    },
+    {
+      name: "Honda Civic",
+      subtitle: "Designed To Stand Out",
+      description: "A refined ride with bold styling, a comfortable cabin, and modern driving feel.",
+      image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=1300&q=90",
+      price: "$55"
+    },
+    {
+      name: "BMW 320i",
+      subtitle: "Experience Pure Luxury",
+      description: "Elegant design and a premium driving experience for your next journey.",
+      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1300&q=90",
+      price: "$75"
+    }
+  ];
+
+  const visual = document.getElementById("dx-car-visual");
+  const mainImage = document.getElementById("dx-main-image");
+  const title = document.getElementById("dx-title");
+  const description = document.getElementById("dx-description");
+  const liveCards = document.querySelectorAll(".dx-live-card");
+  let current = 0;
+  let sliderTimer;
+
+  function selectCar(index) {
+    current = (index + cars.length) % cars.length;
+    const car = cars[current];
+
+    visual.classList.add("dx-car-exit");
+
+    window.setTimeout(() => {
+      title.innerHTML = car.name + "<br>" + car.subtitle;
+      description.textContent = car.description;
+      mainImage.src = car.image;
+      mainImage.alt = car.name + " rental car";
+      visual.classList.remove("dx-car-exit");
+
+      liveCards.forEach((card, i) => {
+        card.classList.toggle("active", i === current);
+      });
+
+      const dots = document.querySelectorAll(".dx-pagination span");
+      dots.forEach((dot, i) => dot.classList.toggle("selected", i === current));
+    }, 280);
+
+    clearInterval(sliderTimer);
+    sliderTimer = setInterval(() => selectCar(current + 1), 6500);
+  }
+
+  document.getElementById("dx-prev").addEventListener("click", () => selectCar(current - 1));
+  document.getElementById("dx-next").addEventListener("click", () => selectCar(current + 1));
+
+  liveCards.forEach(card => {
+    card.addEventListener("click", () => selectCar(Number(card.dataset.car)));
+  });
+
+  sliderTimer = setInterval(() => selectCar(current + 1), 6500);
+
+  // Visual demo counter, not real website analytics.
+  let viewers = 856;
+  setInterval(() => {
+    viewers += Math.floor(Math.random() * 7) - 3;
+    viewers = Math.max(100, viewers);
+    document.getElementById("dx-viewer-count").textContent = viewers.toLocaleString();
+  }, 3200);
+
+  // Demo countdown. Set your actual offer expiry date here.
+  const expiry = Date.now() + (2 * 86400000) + (15 * 3600000) + (27 * 60000);
+  function updateCountdown() {
+    const remaining = Math.max(0, expiry - Date.now());
+    const days = Math.floor(remaining / 86400000);
+    const hours = Math.floor((remaining % 86400000) / 3600000);
+    const minutes = Math.floor((remaining % 3600000) / 60000);
+    const seconds = Math.floor((remaining % 60000) / 1000);
+
+    document.getElementById("dx-days").textContent = String(days).padStart(2, "0");
+    document.getElementById("dx-hours").textContent = String(hours).padStart(2, "0");
+    document.getElementById("dx-minutes").textContent = String(minutes).padStart(2, "0");
+    document.getElementById("dx-seconds").textContent = String(seconds).padStart(2, "0");
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  document.getElementById("dx-news-form").addEventListener("submit", event => {
+    event.preventDefault();
+    document.getElementById("dx-news-message").textContent =
+      "Demo only — connect an email service to receive subscriptions.";
+    event.target.reset();
+  });
+
+  document.getElementById("dx-back-top").addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+})();
+</script>
+
+
+    
+</body>
+</html>
